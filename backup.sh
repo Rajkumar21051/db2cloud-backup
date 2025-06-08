@@ -30,4 +30,4 @@ if [ "$UPLOAD_TELEGRAM" = "true" ]; then
     bash upload_telegram.sh "$BACKUP_FILE"
 fi
 
-echo "🎉 All Done!"
+echo "🎉 Process Done!"
