@@ -29,9 +29,7 @@ chmod +x backup.sh upload_telegram.sh
 Usage
 Just run:
 
-bash
-Copy
-Edit
+
 ./backup.sh
 The script will:
 
@@ -53,9 +51,6 @@ Google Drive API enabled – follow the official quickstart guide to get credent
 Configuration
 Copy .env.example to .env and fill out:
 
-ini
-Copy
-Edit
 # MySQL config
 DB_HOST=localhost
 DB_USER=root
