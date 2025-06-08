@@ -73,7 +73,9 @@ TELEGRAM_CHAT_ID=YOUR_CHAT_ID
 ``` 
 
 If you set UPLOAD_GDRIVE or UPLOAD_TELEGRAM to false, that part will be skipped.
-Google Drive Setup <br>
+
+Google Drive Setup:
+
 Download your credentials.json from the Google Cloud Console
 
 Place it in the project root directory
