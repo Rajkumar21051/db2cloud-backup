@@ -70,6 +70,7 @@ UPLOAD_TELEGRAM=true
 TELEGRAM_BOT_TOKEN=YOUR_BOT_TOKEN
 TELEGRAM_CHAT_ID=YOUR_CHAT_ID
 
+``` 
 
 If you set UPLOAD_GDRIVE or UPLOAD_TELEGRAM to false, that part will be skipped.
 Google Drive Setup
