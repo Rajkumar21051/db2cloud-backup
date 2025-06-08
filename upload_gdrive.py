@@ -23,10 +23,10 @@ def upload_file(filepath):
     file_metadata = {'name': os.path.basename(filepath)}
     media = MediaFileUpload(filepath, resumable=True)
     file = service.files().create(body=file_metadata, media_body=media, fields='id').execute()
-    print(f"✅ Uploaded to Google Drive (file id: {file.get('id')})")
+    print(f"✅ DB Uploaded to Google Drive (file id: {file.get('id')})")
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        print("Usage: python3 upload_gdrive.py <filename>")
+        print("Usage: python3/python upload_gdrive.py <filename>")
         sys.exit(1)
     upload_file(sys.argv[1])
